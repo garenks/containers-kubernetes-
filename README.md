@@ -3,6 +3,8 @@
 ```bash
 minikube start
 
+& minikube -p minikube docker-env | Invoke-Expression
+
 docker build -t apache-custom:v2 -f ./trab/apache/arquivo-apache ./trab/apache
 docker build -t nginx-custom:v2 -f ./trab/nginx/arquivo-nginx ./trab/nginx
 
