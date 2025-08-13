@@ -1,4 +1,4 @@
-# Como rodar Apache e Nginx no Minikube - Passo a Passo Rápido
+# Como rodar Apache e Nginx no Minikube:
 
 ```bash
 minikube start
